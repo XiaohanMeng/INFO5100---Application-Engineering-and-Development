@@ -36,21 +36,21 @@ public class UIFrame extends JFrame {
         // Total Grade
         JPanel total = new JPanel(new GridLayout(2,1));
         total.setPreferredSize(new Dimension(200,50));
-        JLabel jl_total = new JLabel("Total Grade");
+        JLabel jl_total = new JLabel("Total Assignment Points");
         total.add(jl_total);
         total.add(tf_total);
 
         // Earned Grade
         JPanel earned = new JPanel(new GridLayout(2,1));
         total.setPreferredSize(new Dimension(200,50));
-        JLabel jl_earned = new JLabel("Earned Grade");
+        JLabel jl_earned = new JLabel("Earned Points");
         earned.add(jl_earned);
         earned.add(tf_earned);
 
         // Percentage
         JPanel per = new JPanel(new GridLayout(2,1));
         total.setPreferredSize(new Dimension(200,50));
-        JLabel jl_per = new JLabel("Percentage(%)");
+        JLabel jl_per = new JLabel("Percentage(%) of class");
         per.add(jl_per);
         per.add(tf_per);
 
