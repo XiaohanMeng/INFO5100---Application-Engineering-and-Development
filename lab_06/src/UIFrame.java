@@ -101,6 +101,7 @@ public class UIFrame extends JFrame {
             jl_score.setHorizontalAlignment(SwingConstants.CENTER);     // set score center
 
             jl_score.setVisible(true);
+
         });
 
         // add components for output panel
