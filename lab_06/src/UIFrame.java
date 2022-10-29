@@ -49,7 +49,7 @@ public class UIFrame extends JFrame {
 
         // Percentage
         JPanel per = new JPanel(new GridLayout(2,1));
-        earned.setPreferredSize(new Dimension(200,50));
+        per.setPreferredSize(new Dimension(200,50));
         JLabel jl_per = new JLabel("Percentage(%) of class");
         per.add(jl_per);
         per.add(tf_per);
